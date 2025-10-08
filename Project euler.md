@@ -59,14 +59,14 @@ signed main()
 }
 ```
 ### Kết quả
-1231960200
+- 1231960200
 ---
 ## Challenge 2: [Sums of Powers of Two](https://projecteuler.net/problem=169)
 ### Lời giải    
--Ta có vector `pos` là các vị trí của bit 1 trong dãy nhị phân sau khi được đảo ngược lại
--Định nghĩa: +dp[i][0]: là số lượng dãy tồn tại đến bit 1 thứ i và bit thứ i được giữ nguyên
+- Ta có vector `pos` là các vị trí của bit 1 trong dãy nhị phân sau khi được đảo ngược lại
+- Định nghĩa: +dp[i][0]: là số lượng dãy tồn tại đến bit 1 thứ i và bit thứ i được giữ nguyên
              +dp[i][1]: ____________________________________________________ được chuyển thành tổng các bit khác
--Công thức:
+- Công thức:
         dp[i][0] = dp[i - 1][0] + dp[i - 1][1]
         dp[i][1] = dp[i - 1][0] * (d - 1) + dp[i - 1][1] * d
     với d là khoảng cách giữa bit hiện tại và bit trước nó
@@ -101,20 +101,20 @@ signed main()
 ```
 
 ### Kết quả
-178653872807
+- 178653872807
 ---
 ## Challenge 3: [RSA Encryption](https://projecteuler.net/problem=182)
 ### Lời giải
 
-Ta có p = 1009 và q = 3643 là 2 số nguyên tố cùng nhau, sử dụng  CRT :
+- Ta có p = 1009 và q = 3643 là 2 số nguyên tố cùng nhau, sử dụng CRT:
 m^e ≡ m (mod p) (1)
 m^e ≡ m (mod q)
 Lại có:
--trường hợp (mod p) :
-	+khi m = 0 thì 0^e ≡ 0 (mod p) (1 nghiệm)
-	+khi m != 0 thì: 
-         (1) ⟺ elog(m) ≡ log(m) (mod p - 1) 
-             ⟺(e - 1)log(m) ≡ 0(mod p - 1)
+- Trường hợp (mod p) :
+	+ khi m = 0 thì 0 ^ e ≡ 0 (mod p) (1 nghiệm)
+	+ khi m != 0 thì: 
+         (1) ⟺ elog(m) ≡ log(m) (mod (p - 1)) 
+             ⟺(e - 1)log(m) ≡ 0(mod (p - 1))
 Số nghiệm của m thõa là gcd(e - 1, p - 1)
 Tương tự với trường hợp (mod q)
 Vậy nên số nghiệm thõa đối với e là (1 + gcd(e - 1, p - 1))(1 + gcd(e - 1, q - 1)).
@@ -140,7 +140,7 @@ signed main()
 }
 ```
 ### Kết quả
-399788195976
+- 399788195976
 ---
 ## Challenge 4: [Number Mind](https://projecteuler.net/problem=185)
 ### Lời Giải
@@ -186,7 +186,7 @@ signed main()
 }
 ```
 ### Kết quả 
-7526965179680
+- 7526965179680
 ---
 ## Challenge 6: [Tours on a 4 x N Playing Board](https://projecteuler.net/problem=237)
 ### Lời Giải
@@ -197,4 +197,5 @@ signed main()
 ### Lời Giải
 ### Code
 ### Đáp án 
+
 
