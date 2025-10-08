@@ -58,9 +58,8 @@ signed main()
     cout << ans;
 }
 ```
-
 ### Kết quả
-1960200
+1231960200
 ---
 ## Challenge 2: [Sums of Powers of Two](https://projecteuler.net/problem=169)
 ### Lời giải    
@@ -99,10 +98,10 @@ signed main()
 
     cout << dp[vec.size() - 1][0] + dp[vec.size() - 1][1];
 }
+```
 
 ### Kết quả
 178653872807
-```
 ---
 ## Challenge 3: [RSA Encryption](https://projecteuler.net/problem=182)
 ### Lời giải
@@ -198,3 +197,4 @@ signed main()
 ### Lời Giải
 ### Code
 ### Đáp án 
+
