@@ -1,6 +1,6 @@
 # Project euler - Writeup for some challenge
 
-##Challenge 1: [Counting Digit](https://euler.stephan-brumme.com/156/)
+## Challenge 1: [Counting Digit](https://euler.stephan-brumme.com/156/)
 ### Lời giải
 - Ta chứng minh các nghiệm luôn < 10^10
 - Chia số thành các phần theo lũy thừa của 10.  
@@ -62,7 +62,7 @@ signed main()
 ### Kết quả
 1960200
 ---
-##Challenge 2: [Sums of Powers of Two](https://projecteuler.net/problem=169)
+## Challenge 2: [Sums of Powers of Two](https://projecteuler.net/problem=169)
 ### Lời giải    
 -Ta có vector `pos` là các vị trí của bit 1 trong dãy nhị phân sau khi được đảo ngược lại
 -Định nghĩa: +dp[i][0]: là số lượng dãy tồn tại đến bit 1 thứ i và bit thứ i được giữ nguyên
@@ -186,7 +186,7 @@ signed main()
     cout << F(n) - F(k) - F(n - k);
 }
 ```
-### Kết quả
+### Kết quả 
 7526965179680
 ---
 ## Challenge 6: [Tours on a 4 x N Playing Board](https://projecteuler.net/problem=237)
