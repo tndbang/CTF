@@ -112,7 +112,7 @@ signed main()
 Lại có:
 - Trường hợp (mod p) :
 	+ khi m = 0 thì 0 ^ e ≡ 0 (mod p) (1 nghiệm)
-	+ khi m != 0 thì: 
+	+ khi m != 0 thì: /
          (1) ⟺ elog(m) ≡ log(m) (mod (p - 1)) 
              ⟺(e - 1)log(m) ≡ 0(mod (p - 1))
 Số nghiệm của m thõa là gcd(e - 1, p - 1)
@@ -197,6 +197,7 @@ signed main()
 ### Lời Giải
 ### Code
 ### Đáp án 
+
 
 
 
