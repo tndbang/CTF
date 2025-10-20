@@ -107,8 +107,8 @@ signed main()
 ### Lời giải
 
 - Ta có p = 1009 và q = 3643 là 2 số nguyên tố cùng nhau, sử dụng CRT:
-m^e ≡ m (mod p) (1)
-m^e ≡ m (mod q)
+- m^e ≡ m (mod p) (1)
+- m^e ≡ m (mod q)
 Lại có:
 - Trường hợp (mod p) :
 	+ khi m = 0 thì 0 ^ e ≡ 0 (mod p) (1 nghiệm)
@@ -197,5 +197,6 @@ signed main()
 ### Lời Giải
 ### Code
 ### Đáp án 
+
 
 
